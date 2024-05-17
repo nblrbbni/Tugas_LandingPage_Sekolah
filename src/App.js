@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Greeting from './QUIZ/Quiz-1';
+import ClickCounter from './QUIZ/Quiz-2';
+import MessageDisplay from './QUIZ/Quiz-3';
+import ClickCounterWithEffect from './QUIZ/Quiz-4';
+import SimpleForm from './QUIZ/Quiz-5';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greeting />
+      <ClickCounter />
+      <MessageDisplay />
+      <ClickCounterWithEffect />
+      <SimpleForm />
     </div>
   );
 }

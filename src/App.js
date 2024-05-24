@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-import Greeting from './QUIZ/Quiz-1';
-import ClickCounter from './QUIZ/Quiz-2';
-import MessageDisplay from './QUIZ/Quiz-3';
-import ClickCounterWithEffect from './QUIZ/Quiz-4';
-import SimpleForm from './QUIZ/Quiz-5';
+import NavbarComponent from './components/Navbar.js';
+import CarouselComponent from './components/Carousel.js'
+import HeroComponent from './components/Hero.js';
+import CardComponent from './components/Card.js';
+import ContactComponent from './components/Contact.js';
+import FooterComponent from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Greeting />
-      <ClickCounter />
-      <MessageDisplay />
-      <ClickCounterWithEffect />
-      <SimpleForm />
+      <NavbarComponent />
+      <CarouselComponent />
+      <HeroComponent />
+      <CardComponent />
+      <ContactComponent />
+      <FooterComponent />
     </div>
   );
 }
